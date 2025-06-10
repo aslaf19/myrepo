@@ -1,0 +1,21 @@
+/* For all h1 headlines */
+h1 {
+  font-family: 'Arial', sans-serif; /* Choose a font - add more with @import or <link> */
+  color: blueviolet; /* Dark gray text */
+  font-size: 2.5em; /* 2.5 times the default font size */
+  text-align: center; /* Center the text */
+  margin-top: 20px; /* Space above the headline */
+  margin-bottom: 10px; /* Space below the headline */
+}
+*{
+    background: #000;
+}
+
+/* If you have a specific class for a headline, e.g., <h2 class="main-title"> */
+.main-title {
+  font-family: 'Georgia', serif;
+  color: #0056b3; /* A shade of blue */
+  font-size: 3em;
+  font-weight: bold; /* Make it bold */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
